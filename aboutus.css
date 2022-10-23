@@ -1,0 +1,146 @@
+header::before{
+    /* background: url("./aboutus/meeting-ga4142977c_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    /* background-size: cover;
+ background-size: cover;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    width: 100%; */
+}
+body{
+    background-color: black;
+}
+body::before{
+    background: url("./aboutus/meeting-ga4142977c_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    /* background-size: cover;
+ */background-size: cover;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    height: 70%;
+    content: "";
+    z-index: -1;
+    width: 100%;
+}
+
+.first img{
+      display: flex;
+      flex-direction: row;
+    text-align: center;
+     flex-wrap: wrap;
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  
+    box-shadow: 0 0 100px rgb(170, 170, 173);
+}
+.second img{
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+   
+    box-shadow: 0 0 100px rgb(170, 170, 173);
+}
+.third img{
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  
+    box-shadow: 0 0 100px rgb(170, 170, 173);
+}
+.fourth img{
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+    box-shadow: 0 0 100px rgb(170, 170, 173);
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 390px;
+    flex-wrap: wrap;
+   
+}
+/* .parent:hover,.parent-1:hover,.parent-2:hover,.parent:hover,.parents:hover,.parent-3:hover{
+    -moz-box-shadow: 0 0 100px rgb(150, 24, 24);
+    -webkit-box-shadow: 0 0 100px rgb(201, 39, 39);
+    box-shadow: 0 0 100px rgb(241, 235, 235);
+} */
+.parent-1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    word-spacing: 180px;
+     flex-wrap: wrap;
+
+}
+.parent-2{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    word-spacing: 200px;
+    flex-wrap: wrap;
+}
+.parent-3{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    word-spacing: 160px;
+    flex-wrap: wrap;
+}
+.parents{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    /* margin-top: 390px; */
+    flex-wrap: wrap;
+}
+.design{
+    border: 5px solid blueviolet;
+    /* margin-top: 390px; */
+    margin-left: 2%;
+    margin-right: 2%;
+    border-top-right-radius:15px ;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
+    border-bottom-width: 3px ;
+    border-top-width: 3px ;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    -moz-box-shadow: 0 0 100px rgb(150, 24, 24);
+    -webkit-box-shadow: 0 0 100px rgb(201, 39, 39);
+    box-shadow: 0 0 100px rgb(153, 34, 34);
+}
+h2{
+    color: blueviolet;
+    font-size: 25px;
+}
+h2:hover{
+    font-family: 'Stick No Bills', sans-serif;
+    color: white;
+    font-size: 25px;
+    -moz-box-shadow: 0 0 100px rgb(150, 24, 24);
+    -webkit-box-shadow: 0 0 100px rgb(201, 39, 39);
+    box-shadow: 0 0 100px rgb(241, 235, 235);
+}

@@ -1,0 +1,47 @@
+body::before{
+    background: url("./feedback/affirmations-gb777081ad_1920.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    /* background-size: cover;
+ */background-size: cover;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    height: 120%;
+    content: "";
+    z-index: -1;
+    width: 100%;
+}
+.parent{
+    border: 3px solid red;
+}
+.container{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.container-1{
+    margin-left: 500px;
+    margin-top: 70px;
+}
+h1{
+    color: rgb(172, 8, 248);
+    border: 3px solid black;
+}
+h1:hover{
+    font-size: 30px;
+    box-shadow: 0 0 100px rgb(185, 13, 142);
+    font-family: 'Akronim', cursive;
+    word-spacing: 15px;
+}
+h2{
+    text-align: center;
+    box-shadow: 0 0 100px rgb(185, 13, 142);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(204, 19, 90);
+}
+ textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background-color: rgb(255, 167, 4);
+} 

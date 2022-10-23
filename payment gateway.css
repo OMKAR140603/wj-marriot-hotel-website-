@@ -1,0 +1,631 @@
+body{
+     background-color: black;
+/*       
+     background: url("./images/bitcoin-g10c34762c_1920.jpg");
+     background-repeat: no-repeat;
+     background-size: cover; 
+      */
+    
+}
+h1{
+    color: red;
+    margin-top: 26%;
+    font-family: 'Leckerli One', cursive;
+    
+}
+h1:hover,h3:hover{
+    
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+#t2{
+    color: red;
+    /* margin-top: 26%; */
+    font-family: 'Leckerli One', cursive;
+}
+header::before{
+    background: url("./images/wallet-g1191dd2c6_1920.jpg")no-repeat center center/cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+    /* opacity: 0.8; */
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+}
+h3{
+    color: red;
+    font-family: 'Leckerli One', cursive;
+    font-size: 30px;
+}
+h2 {
+    position: absolute;
+    top: 19%;
+    left: 4%;
+    text-transform: capitalize;
+    color: #72da53;
+    font-size: 100px;
+    font-family: 'Ribeye Marrow', cursive;
+  }
+  h2::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+     /* transform-origin: bottom; */
+     /* transform-origin: left;
+      */
+      transform-origin: bottom;
+  
+    transform: rotateX(330deg);
+    line-height: 0.85em;
+
+    background-image: linear-gradient(0deg, #81d423 0, transparent 1995%);
+    -webkit-background-clip: text;
+    color: transparent;         
+    opacity: 0.4;
+  }
+  .options p{
+      /* margin: 50%; */
+      color: #f8c314;
+      font-family: 'Rye', cursive;
+      font-size: 40px;
+      margin-left: 50px;
+      margin-top: 110px;
+  }
+  .options-1 p{
+      /* margin: 50%; */
+      color: #f8c314;
+      font-family: 'Rye', cursive;
+      font-size: 40px;
+      margin-left: 40px;
+      margin-top: 110px;
+  }
+  .options-2 p{
+      /* margin: 50%; */
+      color: #f8c314;
+      font-family: 'Rye', cursive;
+      font-size: 32px;
+      /* margin-left: 50px; */
+      margin-top: 110px;
+  }
+  .options-3 p{
+    color: #f8c314;
+      /* margin: 50%; */
+      font-family: 'Rye', cursive;
+      font-size: 40px;
+      margin-left: 18px;
+      margin-top: 110px;
+  }
+  .options-4 p{color: #f8c314;
+      /* margin: 50%; */
+    
+      font-family: 'Rye', cursive;
+      font-size: 40px;
+      margin-left: 48px;
+      margin-top: 110px;
+  }
+  .options-5 p{color: #f8c314;
+      /* margin: 50%; */
+      
+      font-family: 'Rye', cursive;
+      font-size: 40px;
+      margin-left: 10px;
+      margin-top: 110px;
+  }
+  .options-6 p{color: #f8c314;
+      /* margin: 50%; */
+      
+      font-family: 'Rye', cursive;
+      font-size: 40px;
+      margin-left: 30px;
+      margin-top: 110px;
+  }
+  .options-7 p{
+      color: #f8c314;
+      /* margin: 50%; */
+      
+      font-family: 'Rye', cursive;
+      font-size: 40px;
+      margin-left: 20px;
+      margin-top: 90px;
+  }
+  .options-8 p{
+    color: #f8c314;
+      /* margin: 50%; */
+      font-family: 'Rye', cursive;
+      font-size: 40px;
+      margin-left: 18px;
+      margin-top: 95px;
+  }
+  .options-9 p{
+    color: #f8c314;
+      /* margin: 50%; */
+      font-family: 'Rye', cursive;
+      font-size: 40px;
+      margin-left: 10px;
+      margin-top: 88px;
+  }
+  .options-10 p{
+    color: #f8c314;
+      /* margin: 50%; */
+      font-family: 'Rye', cursive;
+      font-size: 40px;
+      margin-left: 0px;
+      margin-top: 110px;
+  }
+  .options-11 p{
+    color: #f8c314;
+      /* margin: 50%; */
+      font-family: 'Rye', cursive;
+      font-size: 40px;
+      margin-left: 18px;
+      margin-top: 110px;
+  }
+  marquee{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-top: 7px;
+      font-size: 40px;
+      color: rgb(25, 29, 241);
+      font-family: 'Metal Mania', cursive;
+  }
+  .options{
+        border: 2px solid red;
+        height: 200px;
+        width: 200px;
+        position: relative;
+        /* margin-top: 25%; */
+        border-top-right-radius:3px ;
+        border-top-left-radius: 58px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 58px;
+        border-left-color: blueviolet ;
+        border-right-color: orangered ;
+        border-top-color: green;
+        border-bottom-color: goldenrod;
+        border-bottom-width: 3px ;
+        border-top-width: 3px ;
+        border-left-width: 3px;
+        border-right-width: 3px;
+        margin-left: 20px;
+        height: 200px;
+        width: 200px;
+        background: url("./images/payment.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* display: flex; */
+        flex-direction: row;
+        flex-wrap: wrap;
+
+  }
+  .options-1 {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* margin-top: 25%; */
+    float: right;
+    border-top-right-radius:3px ;
+    border-top-left-radius: 58px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 58px;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
+    border-bottom-width: 3px ;
+    border-top-width: 3px ;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    background: url("./images/payment.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+      
+      
+  }
+  .options-2 {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* margin-top: 25%; */
+    float: right;
+    border-top-right-radius:3px ;
+    border-top-left-radius: 58px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 58px;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
+    border-bottom-width: 3px ;
+    border-top-width: 3px ;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    background: url("./images/payment.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+      
+      
+  }
+  .options-3 {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* margin-top: 25%; */
+    float: right;
+    border-top-right-radius:3px ;
+    border-top-left-radius: 58px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 58px;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
+    border-bottom-width: 3px ;
+    border-top-width: 3px ;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    background: url("./images/payment.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+      
+      
+  }
+  .parent{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .options-4 {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* margin-top: 5%; */
+    float: right;
+    border-top-right-radius:3px ;
+    border-top-left-radius: 58px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 58px;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
+    border-bottom-width: 3px ;
+    border-top-width: 3px ;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    background: url("./images/payment.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+      
+      
+  }
+  .options-5 {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* margin-top: 5%; */
+    float: right;
+    border-top-right-radius:3px ;
+    border-top-left-radius: 58px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 58px;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
+    border-bottom-width: 3px ;
+    border-top-width: 3px ;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    background: url("./images/payment.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+      
+      
+  }
+  .options-6 {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* margin-top: 5%; */
+    float: right;
+    border-top-right-radius:3px ;
+    border-top-left-radius: 58px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 58px;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
+    border-bottom-width: 3px ;
+    border-top-width: 3px ;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    background: url("./images/payment.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+      
+      
+  }
+  .options-7 {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* margin-top: 5%; */
+    float: right;
+    border-top-right-radius:3px ;
+    border-top-left-radius: 58px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 58px;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
+    border-bottom-width: 3px ;
+    border-top-width: 3px ;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    background: url("./images/payment.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+      
+      
+  }
+  .options:hover{
+      cursor: wait;
+    -moz-box-shadow: 0 0 100px rgb(150, 24, 24);
+    -webkit-box-shadow: 0 0 100px rgb(201, 39, 39);
+    box-shadow: 0 0 100px rgb(153, 34, 34);
+  
+  }
+  
+  .options-1:hover{
+      cursor: wait;
+    -moz-box-shadow: 0 0 100px rgb(185, 80, 211);
+    -webkit-box-shadow: 0 0 100px rgb(185, 80, 211);
+    box-shadow: 0 0 100px rgb(185, 80, 211);
+  }
+  
+  .options-2:hover{
+      cursor: wait;
+    -moz-box-shadow: 0 0 10px rgb(185, 80, 211);
+    -webkit-box-shadow: 0 0 10px rgb(185, 80, 211);
+    box-shadow: 0 0 10px rgb(185, 80, 211);
+  }
+  
+  .options-3:hover{
+      cursor: wait;
+    -moz-box-shadow: 0 0 100px rgb(150, 24, 24);
+    -webkit-box-shadow: 0 0 100px rgb(201, 39, 39);
+    box-shadow: 0 0 100px rgb(153, 34, 34);
+  }
+  
+  .options-4:hover{
+      cursor: wait;
+    -moz-box-shadow: 0 0 100px rgb(150, 24, 24);
+    -webkit-box-shadow: 0 0 100px rgb(201, 39, 39);
+    box-shadow: 0 0 100px rgb(153, 34, 34);
+  }
+  .options-5:hover{
+      cursor: wait;
+    -moz-box-shadow: 0 0 100px rgb(150, 24, 24);
+    -webkit-box-shadow: 0 0 100px rgb(201, 39, 39);
+    box-shadow: 0 0 100px rgb(153, 34, 34);
+  }
+  
+  .options-6:hover{
+      
+    -moz-box-shadow: 0 0 100px rgb(150, 24, 24);
+    -webkit-box-shadow: 0 0 100px rgb(201, 39, 39);
+    box-shadow: 0 0 100px rgb(153, 34, 34);
+    cursor: wait;
+  }
+  .options-7:hover{
+      
+    -moz-box-shadow: 0 0 100px rgb(150, 24, 24);
+    -webkit-box-shadow: 0 0 100px rgb(201, 39, 39);
+    box-shadow: 0 0 100px rgb(153, 34, 34);
+    cursor: wait;
+  }
+  .options-8:hover{
+      
+    -moz-box-shadow: 0 0 100px rgb(150, 24, 24);
+    -webkit-box-shadow: 0 0 100px rgb(201, 39, 39);
+    box-shadow: 0 0 100px rgb(153, 34, 34);
+    cursor: wait;
+  }.options-9:hover{
+      
+    -moz-box-shadow: 0 0 100px rgb(150, 24, 24);
+    -webkit-box-shadow: 0 0 100px rgb(201, 39, 39);
+    box-shadow: 0 0 100px rgb(153, 34, 34);
+    cursor: wait;
+  }.options-10:hover{
+      
+    -moz-box-shadow: 0 0 100px rgb(150, 24, 24);
+    -webkit-box-shadow: 0 0 100px rgb(201, 39, 39);
+    box-shadow: 0 0 100px rgb(153, 34, 34);
+    cursor: wait;
+  }.options-11:hover{
+      
+    -moz-box-shadow: 0 0 100px rgb(150, 24, 24);
+    -webkit-box-shadow: 0 0 100px rgb(201, 39, 39);
+    box-shadow: 0 0 100px rgb(153, 34, 34);
+    cursor: wait;
+  }
+  .options-8 {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* margin-top: 5%; */
+    float: right;
+    border-top-right-radius:3px ;
+    border-top-left-radius: 58px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 58px;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
+    border-bottom-width: 3px ;
+    border-top-width: 3px ;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    background: url("./images/payment.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+      
+      
+  } .options-9 {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* margin-top: 5%; */
+    float: right;
+    border-top-right-radius:3px ;
+    border-top-left-radius: 58px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 58px;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
+    border-bottom-width: 3px ;
+    border-top-width: 3px ;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    background: url("./images/payment.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+      
+      
+  } .options-10 {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* margin-top: 5%; */
+    float: right;
+    border-top-right-radius:3px ;
+    border-top-left-radius: 58px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 58px;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
+    border-bottom-width: 3px ;
+    border-top-width: 3px ;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    background: url("./images/payment.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+      
+      
+  } .options-11 {
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* margin-top: 5%; */
+    float: right;
+    border-top-right-radius:3px ;
+    border-top-left-radius: 58px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 58px;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
+    border-bottom-width: 3px ;
+    border-top-width: 3px ;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    background: url("./images/payment.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+      
+      
+  }
+  

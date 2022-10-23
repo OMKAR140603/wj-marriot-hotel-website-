@@ -1,0 +1,110 @@
+body::before{
+    /* background: url("./menu/celebrate-g3dc3f71ca_1920.jpg"); */
+    /* background: url("./menu/cutlery-g6d5b6a0f8_1920.jpg"); */
+    background: url("./menu/plate-g20646f77b_1920.jpg");
+    /* background: url("./menu/spoon-g238f81f13_1920.jpg"); */
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    content: "";
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 3px solid black; */
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    
+}
+.child-1{
+    border: 3px solid black;
+}
+.child-2{
+    margin-top: 70px;
+    border: 3px solid black;
+    height: 300px;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
+    /* background-color: aqua; */
+    padding: 20px;
+    /* color: green; */
+    z-index: -1;
+
+}
+#s1{
+    background: url("./menu/green-gaea96c266_1920.jpg");
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    background-size: cover;
+    /* height: auto; */
+    /* width: auto; */
+    color: rgb(4, 255, 46);
+    font-size: 26px;
+    opacity: 0.9;
+    box-shadow: 0 0 100px rgb(211, 155, 51);
+}
+#s2{
+    /* background-color: rgb(49, 177, 18);
+ */
+ background: url("./menu/food-gc9fa51156_1920.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ top: 0;
+ left: 0;
+ color: rgb(4, 255, 46);
+ font-size: 25px;
+ box-shadow: 0 0 100px rgb(211, 155, 51);
+ /* opacity: 0.7; */
+}
+#s3{
+    background: url("./menu/noodles-g987ef4e85_1920.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: rgb(4, 255, 46);
+ font-size: 24px;
+ box-shadow: 0 0 100px rgb(211, 155, 51);
+}
+#s4{
+    background: url("./menu/lamb-g0fb293a98_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(4, 255, 46);
+ font-size: 23px;
+ box-shadow: 0 0 100px rgb(211, 155, 51);
+
+}
+#s5{
+    /* text-decoration: none; */
+    background: url("./menu/cocktail-g1c67777db_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(4, 255, 46);
+ font-size: 25px;
+ box-shadow: 0 0 100px rgb(211, 155, 51);
+ opacity: 90.5;
+ /* font-family: 'Lobster', cursive; */
+}
+.parent:hover{
+    box-shadow: 0 0 100px rgb(184, 169, 34);
+    background: none;
+    cursor: wait;
+}
+h1{
+    color: rgb(255, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

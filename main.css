@@ -1,0 +1,260 @@
+.container{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+   
+}
+.row{
+ 
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+   
+}
+.row:hover{
+    -moz-box-shadow: 0 0 100px rgb(231, 17, 17);
+    -webkit-box-shadow: 0 0 100px rgb(230, 21, 21);
+    box-shadow: 0 0 100px rgb(231, 12, 12);
+}
+.photos img{
+    -moz-box-shadow: 0 0 10px rgb(214, 29, 231);
+    -webkit-box-shadow: 0 0 10px rgb(226, 27, 233);
+    box-shadow: 0 0 10px rgb(190, 15, 221);
+    border: 3px solid blueviolet;
+    border-radius: 40px;
+     /* display: flex; */
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+h3:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    font-family: 'Vast Shadow', cursive;
+}
+.cht-bot img{
+    border: 2px solid red;
+    height: 70px;
+    width: 70px;
+    /* border-radius: 50%; */
+    /* position: fixed; */
+    /* margin-left: 98%px; */
+    /* border-radius: 50%; */
+
+    border-top-right-radius:3px ;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 8px;
+    border-left-color: blueviolet ;
+    border-right-color: orangered ;
+    border-top-color: green;
+    border-bottom-color: goldenrod;
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    /* border: 6px solid; */
+    margin-left: 1180px;
+
+}
+
+.cht-bot:hover{
+    cursor: wait;
+    -moz-box-shadow: 0 0 10px rgb(24, 64, 150);
+    -webkit-box-shadow: 0 0 10px rgb(20, 46, 133);
+    box-shadow: 0 0 10px rgb(36, 34, 153);
+    
+}
+.cht-bot{
+    margin-right: 5px;
+}
+h1{
+    color: rgb(253 12 12);
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    background-image: -moz-repeating-linear-gradient(blue,black);
+    /* font-family: 'Racing Sans One', cursive;
+    /* font-family: 'Shrikhand', cursive; */
+    font-family: 'Ubuntu', sans-serif; 
+margin-top: 60px;
+opacity: 300;
+/* transform: rotate(9deg); */
+
+margin-left: 400px;
+
+}
+
+header::before{
+    background: url('./images/las-vegas-g50aed174f_1920.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    opacity: 72.8;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    /* padding: 2px 25px; */
+    margin: 0;
+    padding: 0;
+    opacity: 300;
+     align-items: center;
+    justify-content: center; 
+    color: white;
+    overflow: hidden;
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 200;
+  }
+  .navbar{
+       border: 2px solid rgb(224, 158, 16);
+      /* background: linear-gradient(red ,blue); */
+      height: 60px;
+      border-radius: 30px;
+      margin: 10px;
+      margin-left: 120px;
+      margin-right: 160px;
+      
+  }
+  li a {
+      display: block;
+      color: #d6a91d;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  li a:hover{
+      /* background-color: rgb(75, 75, 75); */
+      background: linear-gradient(rgb(53, 45, 95),rgb(161, 107, 154));
+      cursor: default;
+
+  }
+
+  body{
+    /* Radiel gradient defined by its center*/
+     /* background-image: radial-gradient(#013220,#008000); */
+     height: 100vh;
+     background-color: black;
+   }
+
+   h2 {
+     position: absolute;
+     top: 35%;
+     left: 22%;
+     text-transform: capitalize;
+     color: #ee0c0c;
+     font-size: 100px;
+   }
+   h2::after {
+     content: attr(data-text);
+     position: absolute;
+     top: 0;
+     left: 0;
+ 
+      transform-origin: bottom;
+ /*  Rotates around x-axis */
+     transform: rotateX(160deg);
+     line-height: 0.85em;
+ /* linear-gradient defined by up,down,left ,right ,diagonal */
+     background-image: linear-gradient(0deg, #ffd209 0, transparent 95%);
+     -webkit-background-clip: text;
+     color: transparent;         
+     opacity: 0.4;
+   }
+
+   marquee{
+
+       margin-top: 340px;
+    color: rgb(226, 192, 43);
+       font-size: 50px;
+       font-family: 'Shrikhand', cursive;
+
+   }
+   .testimonials{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 41px;
+    top: 0;
+    left: 0;
+    border: 3px solid #ff0028;
+    height: 50px;
+    position: relative;
+    color: #00ffb8;
+    background-image: radial-gradient(rgb(53, 45, 95),rgb(161, 107, 154));
+    margin-top: 90px;
+   }
+   .box-type{
+       border: 2px solid black;
+       height: 400px;
+       width: 80%;
+       margin-top: 17px;
+       padding: 7px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       color: rgb(105 4 4);
+       text-align: center;
+       justify-content: center;
+       margin-left: 100px;
+       background: url("./images/alexandre-boucher-zZwLBL9W0tE-unsplash.jpg");
+        background-repeat: no-repeat;
+       
+       background-position: center;
+       background-size: cover;
+       opacity: 150; 
+       
+   }
+   
+   .box-type-{
+       border: 2px solid black;
+       height: 500px;
+       width: 80%;
+       margin-top: 17px;
+       padding: 7px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       color: rgb(105 4 4);
+       text-align: center;
+       justify-content: center;
+       margin-left: 100px;
+       background: url("./images/alexandre-boucher-zZwLBL9W0tE-unsplash.jpg");
+        background-repeat: no-repeat;
+       
+       background-position: center;
+       background-size: cover;
+       opacity: 150; 
+       
+   }
+   
+   .box-type p{
+       margin-top: 4px;
+   }
+   p{
+    font-family: 'Are You Serious', cursive;
+     font-size: 50px;
+   }
+   /* h2{
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   } */
+   footer{
+       height: 220px;
+       width: 100%;
+       background-color: tomato;
+       color: rgb(196, 196, 196);
+       background:  radial-gradient(rgb(177, 58, 58) , rgb(110, 31, 110)) ;
+       margin: 3px;
+   }
+   footer h5{
+       margin: 20px;
+       margin-left: 10px;
+       margin-top: 20px;
+   }
+   .flex{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       flex-wrap: wrap;
+   }
+   .flex img:hover{
+    box-shadow: 0 0 100px rgb(231, 12, 12);
+   }
+   
